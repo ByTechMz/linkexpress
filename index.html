@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download do App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .container {
+      background-color: #fff;
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #00796B;
+    }
+    .qr {
+      margin: 20px 0;
+    }
+    .btn-download {
+      display: inline-block;
+      background-color: #00796B;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .instructions {
+      margin-top: 20px;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Baixe o App LinkExpress</h1>
+    <p>Versão: 1.0.0</p>
+
+    <div class="qr">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://bytechmz.github.io/linkexpress/LinkExpress.apk" alt="QR Code">
+    </div>
+
+    <a class="btn-download" href="LinkExpress.apk" download>Baixar App (APK)</a>
+
+    <div class="instructions">
+      <p><strong>Importante:</strong> Ao instalar pela primeira vez, ative a opção <em>Fontes desconhecidas</em> nas configurações do seu celular.</p>
+      <p>O app ainda não está na Play Store devido a uso de SMS interno para validar pagamentos automaticamente.</p>
+    </div>
+  </div>
+</body>
+</html>
